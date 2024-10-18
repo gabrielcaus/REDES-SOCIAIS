@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root{
+    --cor-texto: #000000;
+    --cor-fundo: #A594F9;
+    --cor-secundaria: #E5D9F2;
+    --cor-clara: #F5EFFF;
+    --font:"Playfair Display", serif;
+}
+body{
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family: var(--font);
+}
+header{
+    background-color: var(--cor-secundaria);
+    text-align: center;
+
+}h1{
+    font: size 2rem;
+    color: var(--cor-texto);
+    font-weight: 700;
+}
